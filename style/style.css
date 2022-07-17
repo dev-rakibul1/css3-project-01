@@ -1,0 +1,46 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* React css or utilities*/
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f3f1ff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 870px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+/* top player and top blog section styling */
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.section-title {
+  color: #562eff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+}
+
+.top-players .player img {
+  max-width: 56px;
+  max-height: 56px;
+}
+
+.player-name {
+  margin-left: 16px;
+}
